@@ -1,0 +1,21 @@
+def cozum():
+    girdi = input("Test sayısını girin: ")
+    t = int(girdi)
+    
+    cikti = []
+    
+    for i in range(t):
+        n = int(input(f"{i+1}. test için ışık sayısını girin: "))
+        anahtarlar = list(map(int, input("Anahtarların durumunu girin (0 veya 1): ").split()))        
+        toplam_acik = sum(anahtarlar)
+        
+        max_isik = min(n, toplam_acik // 2)
+        min_isik = 1 if toplam_acik > 0 else 0
+        
+        cikti.append(f"{min_isik} {max_isik}")
+    print("\n".join(cikti))
+
+cozum()
+
+
+#hocam sorular neden bu kadar zor ? 3 saatimi buna harcadım o arada en az 200 soru çözerdim :/
