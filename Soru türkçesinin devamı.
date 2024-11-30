@@ -1,0 +1,47 @@
+Not
+İlk test durumunda devrede sadece bir ışık vardır ve hiçbir anahtar açık değildir, dolayısıyla ışık kesinlikle kapalıdır.
+
+İkinci test durumunda ise devrede sadece bir adet ışık var, ancak bu ışığa bağlı bir anahtar açık olduğundan ışık yanıyor.
+
+Üçüncü test durumunda ise devrede sadece bir ışık var ve her iki anahtar da açık olduğundan ışık iki kez açılıp kapatıldığı için kapalı durumdadır.
+
+Dördüncü test durumunda, hiçbir ışığın yanmaması için anahtarlar şu şekilde düzenlenebilir:
+
+Anahtar1
+ve geçiş4
+ışığa bağlıdır1
+Her iki anahtar da kapalı olduğundan ışık1
+Ayrıca kapalıdır.
+Anahtar2
+ve geçiş6
+ışığa bağlıdır2
+Her iki anahtar da kapalı olduğundan ışık2
+Ayrıca kapalıdır.
+Anahtar3
+ve geçiş5
+ışığa bağlıdır3
+Her iki anahtar da açık, bu yüzden hafif3
+başlangıçtaki kapalı durumundan iki kez açılıp kapatılır ve böylece kapalı kalır.
+Ve sahip olmak2
+Işıklar açıkken, anahtarlar şu şekilde düzenlenebilir:
+
+Anahtar1
+ve geçiş2
+ışığa bağlıdır1
+Her iki anahtar da kapalı olduğundan ışık1
+Ayrıca kapalıdır.
+Anahtar3
+ve geçiş4
+ışığa bağlıdır2
+. Anahtardan beri3
+açık ve anahtar4
+kapalı, ışık2
+başlangıçtaki kapalı durumundan bir kez açılıp kapatıldığında açıktır.
+Anahtar5
+ve geçiş6
+ışığa bağlıdır3
+. Anahtardan beri5
+açık ve anahtar6
+kapalı, ışık3
+başlangıçtaki kapalı durumundan bir kez açılıp kapatıldığında açıktır.
+
