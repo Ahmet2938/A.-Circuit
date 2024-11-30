@@ -1,0 +1,36 @@
+A. Devre
+test başına zaman sınırı1 saniye
+test başına bellek sınırı256 megabayt
+Alice az önce bir devre tasarladıN
+ışıklar ve2 gün
+anahtarlar. Her bileşenin (bir ışık veya bir anahtar) iki durumu vardır: açık veya kapalı. Işıklar ve anahtarlar şu şekilde düzenlenmiştir:
+
+Her ışık tam olarak iki anahtara bağlıdır .
+Her anahtar tam olarak bir ışığa bağlı . Her anahtarın hangi ışığa bağlı olduğu bilinmiyor .
+Bütün anahtarlar kapalı olduğunda bütün ışıklar da kapalı olur.
+Bir anahtar açılıp kapatıldığında (açık konumdan kapalı konuma veya tam tersi), ona bağlı olan ışığın durumu da değişecektir.
+Alice, yalnızca durumlarını gösteren devreyi getirir.2 gün
+anahtarları kız kardeşi Iris'e verir ve ona bir bilmece sorar: En az ve en fazla kaç ışık açılabilir?
+
+Küçük kız kardeşinin maskaralıklarını çok iyi bilen Iris, Alice'e doğru cevabı vermek için bir saniyeden fazla zaman harcamıyor. Siz de aynısını yapabilir misiniz?
+
+Giriş
+Her test birden fazla test durumundan oluşur. İlk satır tek bir tamsayı içerirT
+(1 ≤ t ≤ 500
+) — test vakalarının sayısı. Test vakalarının açıklaması aşağıdadır.
+
+Her test durumunun ilk satırı tek bir tam sayı içerirN
+(1 ≤ n ≤ 50
+) — devredeki ışık sayısı.
+
+Her test vakasının ikinci satırı şunları içerir:2 gün
+tam sayılarA1,A2, … ,A2 gün
+(0 ≤ABen≤ 1
+) — devredeki anahtarların durumları.ABen= 0
+anlamına gelirBen
+-inci anahtar kapalıdır veABen= 1
+anlamına gelirBen
+-inci anahtar açık.
+
+Çıktı
+Her test durumu için, sırasıyla açılabilecek minimum ve maksimum ışık sayısını belirten iki tam sayı çıktısı verin.
